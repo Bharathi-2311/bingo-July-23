@@ -120,6 +120,9 @@ table,td
 	border: 5px solid white;
     border-radius: 20px;   
 }
+
+.user-generation input:hover{
+}
 .quiz-starts {
 	justify-content: center;
 	display: flex;
