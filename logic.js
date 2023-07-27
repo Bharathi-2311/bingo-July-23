@@ -97,7 +97,7 @@ let loggedInGeneration = '';
 
 function handleQuestions() { 
 //function to shuffle and push 15 questions to shuffledQuestions array
-    while (shuffledQuestions.length <= 5) {
+    while (shuffledQuestions.length <= 14) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random) && random.generation != loggedInGeneration) {
             shuffledQuestions.push(random)
@@ -315,7 +315,7 @@ function handleNextQuestion()
             resultInTable.push(resultrow);
         }
 		setTimeout(() => {
-        if (indexNumber <= 5) {
+        if (indexNumber <= 14) {
 			//displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber);	
         }
