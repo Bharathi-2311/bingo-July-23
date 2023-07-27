@@ -129,7 +129,7 @@ function showDetailedReport()
 {
 	localStorage.setItem("resultfromfirstpage", JSON.stringify(resultInTable));
 		localStorage.setItem("TotalScore", playerScore);
-	window.location.href = "/resultpage.html";
+	window.location.href = "/bingo-July-23/resultpage.html";
 
 }
 
@@ -177,7 +177,7 @@ function startQuiz()
 	else
 	{
 	localStorage.setItem("loggedInGeneration", String(document.getElementById('user-generation').value));
-	window.location.href = "/quizpage.html";
+	window.location.href = "/bingo-July-23/quizpage.html";
 	}
 }
 
