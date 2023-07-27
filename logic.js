@@ -177,7 +177,7 @@ function startQuiz()
 	else
 	{
 	localStorage.setItem("loggedInGeneration", String(document.getElementById('user-generation').value));
-	window.location.href = "https://venamvalikudhu.github.io/bingo-July-23/htmlquizpage.html";
+	window.location.href = "https://venamvalikudhu.github.io/bingo-July-23/quizpage.html";
 	}
 }
 
