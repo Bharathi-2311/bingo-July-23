@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bingo-July'23</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body oncontextmenu="return true;">
+    <main>
+	<div class="game-rules">
+	<h1> BINGO Senior's Quiz July - 2023 Edition !! </h1>
+	<br>
+	<h2> Rules & Regulations : </h2>
+	<br>
+	<p> 1. DO NOT Refresh/Navigate through the Webpage. </p>
+	<br>
+	<p> 2. There will a TOTAL of 15 Questions for each team. </p>
+	<br>
+	<p> 3. Scoring for each question will be based on TIME TAKEN TO ANSWER & GENERATION to which the Question belongs to. </p>
+	<br>
+	<p> 4. There is TIMER at the top for each question which tracks the amount of time taken to answer. This will decide the TIME BONUS. </p>
+	<br>
+	<p> 5. Sample Score computation : (Time Left on Timer + Generation Difference)*5 </p>
+	<br>
+	<p> 6. Answers are not CASE SENSITIVE however be mindful of the Spellings. 
+	<br>
+	</div>
+	
+	<div class="user-generation">
+		<h1> Enter your team's Generation (Format:YYYY) : <input type="textbox" id="user-generation"> </h1>
+	</div>
+	<br>
+	<br>
+	<div class="quiz-starts">
+		<button id="quiz-starts-button" onclick="startQuiz()">START QUIZ !!!! 
+	</div>
+    </main>
+    <script src="logic.js"></script>
+</body>
+</html>

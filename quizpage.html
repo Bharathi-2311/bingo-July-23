@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bingo-July'23</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="NextQuestion(0)" oncontextmenu="return false;">
+    <main>
+	<div class="welcome-home" id="welcome">
+	<h1>Welcome, <p><span id="welcome-team"></span></p></h1>
+	</div>
+	<br>
+ <!-- creating a modal for when quiz ends -->
+        <div class="modal-container" id="score-modal">
+            <div class="modal-content-container">
+                <h1>Congratulations, Quiz Completed !!</h1>
+                <div class="grade-details">
+                    <p>Overall Score : <span id="overall-score"></span></p>
+                    <p ><span id="remarks"></span></p>
+                </div>
+                <div class="modal-button-container">
+                    <button onclick="showDetailedReport()">View Details</button>
+                </div>
+
+            </div>
+        </div>
+<!-- end of modal of quiz details-->
+
+<!-- Quiz Header section with details-->
+		<div class="game-quiz-container">			
+			<div class="game-details-container">
+			    <div id="background-image" class="bgimage">
+				</div>
+				<div id="app" style="padding:20px;">
+				<div class='base-timer' style="float:left;">
+				<h1>Timer : <span id="timer-question">
+				<span id='base-timer-label' class='base-timer__label'>05:00
+				</span>
+				</div>
+				</div>
+				<div class='score-container' style="padding:20px;">
+                <h1>Score : <span id="player-score"></span></h1>
+				</div>
+				<div class='question-num-container' style="padding:20px;">
+                <h1> Question : <span id="question-number"></span> / 15</h1>
+				</div>
+            </div>
+<!-- End of Quiz Header section with details-->
+
+<!-- Quiz Question section-->
+            <div class="game-question-container">
+			<div>
+                <h1 id="display-question"></h1>
+			</div>
+			</div>
+			
+			<div class="game-generation-container">	
+			<h1><p>Generation : <span id="question-genration"></span></p></h1>
+            </div>
+            <div class="game-options-container">
+				<span>
+                    <input type="text" id="user-ans" name="answer" class="textbox"/>
+                </span>
+            </div>
+<!-- End of Quiz Question section-->
+
+<!-- Quiz next Question section-->
+            <div class="next-button-container">
+                <button onclick="handleNextQuestion()">Next Question</button>
+            </div>
+<!-- End of Quiz next Question section-->
+        </div>
+
+    </main>
+    <script src="logic.js"></script>
+</body>
+</html>

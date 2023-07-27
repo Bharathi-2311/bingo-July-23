@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bingo-July'23</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadTableData()" oncontextmenu="return false;">
+<main>
+   <div class="game-rules">
+   <table id="myTable" class="table-details">
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>Question</th>
+	  <th>Question's Generation</th>
+	  <th>Time</th>
+	  <th>Score</th>
+    </tr>
+  </thead>
+  <tbody id="testBody"></tbody>
+</table>
+   </div> 
+   <div class="final-value">
+   <h1>TOTAL SCORE : <span id="final-score-value"></span></h1>
+   </div>
+   </main>
+       <script src="logic.js"></script>
+</body>
+</html>
