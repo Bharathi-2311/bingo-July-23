@@ -1,110 +1,110 @@
 const questions = [
     {
-        question: "How manay hours can be found in a day0 ?",
+        question: "This object was first successfully launched (intentionally placed) in Earth’s orbit. It orbited for three weeks and began the space race and the space age. What was it named ?",
 		generation: 1950,
-        correctOption: "optionD"
+        correctOption: "sputnik"
     },
 	{
-        question: "How manay hours can be found in a day1 ?",
+        question: "This style of western music became famous in later decades. Elvis is commonly known for this genre",
 		generation: 1950,
-        correctOption: "optionD"
+        correctOption: "rock and roll"
     },
 	{
-        question: "How manay hours can be found in a day2 ?",
+        question: "This is a highly infectious disease, mostly affecting young children that attacks nervous system. Successful vaccination for it was found in 1950s and this work was awarded with Nobel prize.",
 		generation: 1950,
-        correctOption: "optionD"
+        correctOption: "polio"
     },
 	{
-        question: "How manay hours can be found in a day3 ?",
+        question: "In late 1950s, it's established by the Government of India and is autonomous. people are eager to watch it in a box and it's commonly identified with swirls in it's logo",
 		generation: 1950,
-        correctOption: "optionD"
+        correctOption: "doordarshan"
     },
 	{
-        question: "How manay hours can be found in a day4 ?",
+        question: "This toy company was founded by a carpenter in early 1930s. In 1950s, after purchasing a plastic molding machine, they created different smaller units with which any toy could be built using interlocking principle. Till today these are famous with kids. There is an animated movie released recently for it.",
 		generation: 1950,
-        correctOption: "optionD"
+        correctOption: "lego"
     },
 	{
-        question: "How manay hours can be found in a day5 ?",
+        question: "This was the author's first novel which earned a pulitzer prize in 1960s. The story explores racism and justice and is about a black man being falsely accused. What was the novel title?",
 		generation: 1960,
-        correctOption: "optionD"
+        correctOption: "to kill a mocking bird"
     },
 	{
-        question: "How manay hours can be found in a day6 ?",
+        question: "Born in 1960s, this football player was famous for a goal scored against England during world cup. This earned him a special title associated with the god. Who is he ?",
 		generation: 1960,
-        correctOption: "optionD"
+        correctOption: "diego maradona"
     },
 	{
-        question: "How manay hours can be found in a day7 ?",
+        question: "This popular travel destination has colonized India in 1670s around bengal and pondicherry. In 1960s, it tested it's first atomic bomb and joined the league of nuclear power with US, USSR",
 		generation: 1960,
-        correctOption: "optionD"
+        correctOption: "france"
     },
 	{
-        question: "How manay hours can be found in a day8 ?",
+        question: "He graduated from Harvard University after which he joined the U.S. Naval Reserve and his rescue of his fellow sailors made him a war hero. He was the youngest person to assume the presidency (of United States) by election and the youngest president at the end of his tenure. He was assasinated in 1960s. Who is he?",
 		generation: 1960,
-        correctOption: "optionD"
+        correctOption: "john f kennedy"
     },
 	{
-        question: "How manay hours can be found in a day9 ?",
+        question: "Around 1960s. India was soon met with crisis of attacks on north-eastern india(NEFA). This was to attack and capture north-eastern India. The talk of the day was to get the country better prepared militarily, which included mandatory NCC training. North-eastern India was attacked by _",
 		generation: 1960,
-        correctOption: "optionD"
+        correctOption: "china"
     },
 	{
-        question: "How manay hours can be found in a day10 ?",
-		generation: 1970,
-        correctOption: "optionD"
+        question: "This was launched onto space in 1990s and is a project of international cooperation between NASA and ESA. There is NASA site for its findings and images. It is named after an astronomer.",
+		generation: 1990,
+        correctOption: "hubble"
     },
 	{
-        question: "How manay hours can be found in a day11 ?",
-		generation: 1970,
-        correctOption: "optionD"
+        question: "He made his tv debut in 1990s and became famous for sitcom which was co-written and created by him. This later inspired an animated spin-off. His character is ‘a child in a grown man’s body’ which he had developed while studying at Oxford. The sitcom or animated series is ? ",
+		generation: 1990,
+        correctOption: "mr bean"
     },
 	{
-        question: "How manay hours can be found in a day12 ?",
-		generation: 1970,
-        correctOption: "optionD"
+        question: "A series of Bomb explosions that took place during 1990s, on what is now called ‘Black Friday,’ paralyzed India and shocked the world. These were the most destructive bomb explosions of the time in Indian history. which city did it occur ?",
+		generation: 1990,
+        correctOption: "bombay"
     },
 
     {
-        question: "Which is the longest river in the world13 ?",
-		generation: 1970,
-        correctOption: "optionA"
+        question: "Around mid 1990s, she was the first of her animal group to be successfully cloned, until she passed away six-and-a-half years later. The technology that brought it to life has transformed our understanding of the potential of cloning, inspired a Nobel Prize and sparked ethical debates. what was she named ?",
+		generation: 1990,
+        correctOption: "dolly"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth14 ?",
-		generation: 1970,
-        correctOption: "optionC"
+        question: "The world gained entry to the Wizarding World in late 1990s with her first volume book release, till then she was living in her car while writing this epic tale, defines what it’s like to chase your dreams no matter where you come from. What character was the series based on",
+		generation: 1990,
+        correctOption: "harry potter"
     },
 
     {
-        question: "Which country is the largest in the world15 ?",
+        question: "This disaster that happened in 1980s was influential that it transcends Earth day history. What started as a routine safety test ended in reactor explosion affecting thousands of lives. It happened at _",
 		generation: 1980,
-        correctOption: "optionA"
+        correctOption: "chernobyl"
     },
 
     {
-        question: "Which country is the largest in the world15 ?",
+        question: "This has a ring but no finger and it could be held in hand and it was first introduced by _ ",
 		generation: 1980,
-        correctOption: "optionA"
+        correctOption: "motorola"
     },
 
     {
-        question: "Which country is the largest in the world15 ?",
+        question: "This person may have been plying his craft since childhood but once 80s came around he challenged racial barriers in pop culture and became ruler of it.",
 		generation: 1980,
-        correctOption: "optionA"
+        correctOption: "michael jackson"
     },
 
     {
-        question: "Which country is the largest in the world15 ?",
+        question: "The world too small for it. It crumbled in end of 1980s which was first step towards reunification. What specifically crumbled ?",
 		generation: 1980,
-        correctOption: "optionA"
+        correctOption: "berlin wall"
     },
 
     {
-        question: "Which country is the largest in the world15 ?",
+        question: "It is was first created in early 1980s, starting a revolutionary digital era that we know today. This was worked on by Scientists at CERN, a physics research facility in Switzerland, for a network to speed the circulation of reports.",
 		generation: 1980,
-        correctOption: "optionA"
+        correctOption: "world wide web"
     }
 ]
 
