@@ -30,7 +30,7 @@ const questions = [
         correctOption: "to kill a mocking bird"
     },
 	{
-        question: "Born in 1960s, this football player was famous for a goal scored against England during world cup. This earned him a special title associated with the god. Who is he ?",
+        question: "Born in 1960s, this football player was famous for a goal scored against England during world cup. This earned him a special title associated with the god and he is ?",
 		generation: 1960,
         correctOption: "diego maradona"
     },
@@ -96,7 +96,7 @@ const questions = [
     },
 
     {
-        question: "The world too small for it. It crumbled in end of 1980s which was first step towards reunification. What specifically crumbled ?",
+        question: "The world is too small for it. It crumbled in end of 1980s which was first step towards reunification. What specifically crumbled ?",
 		generation: 1980,
         correctOption: "berlin wall"
     },
